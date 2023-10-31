@@ -4,3 +4,11 @@
     font-size: 40px;
     text-shadow: 3px 3px black;
 }
+
+.text-colored {
+    color: rgb(39, 219, 255);
+}
+
+.nav-pills .show>.nav-link {
+    background-color: brown;
+}
