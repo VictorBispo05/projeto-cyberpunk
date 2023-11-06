@@ -27,3 +27,53 @@ h2 {
     text-shadow: #000000 4px 4px;
 }
 
+form {
+    border: solid #fee801 3px;
+    border-radius: 1.8%;
+    padding: 30px;
+}
+
+@media (max-width: 600px) {
+    .container-arasaka {
+        display: flex;
+        justify-content: center;
+    }
+    .imagem-arasaka {
+        width: 90%;
+        
+    }
+    .personagem-tamanho {
+        width: 90%;
+        margin-left: 0px;
+    }
+    .center {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .container-arasaka {
+        display: flex;
+        justify-content: center;
+    }
+    .imagem-arasaka {
+        width: 20%;
+        
+    }
+    .personagem-tamanho {
+        width: 45%;
+        margin-left: 0px;
+    }
+    .center {
+        justify-content: center;
+    }
+}
+
+.footer {
+    padding: 24px;
+    background-color: #1c1c1f;
+}
+
+.footer p {
+    color: #777777;
+}
