@@ -69,6 +69,15 @@ form {
     }
 }
 
+.botao {
+    background-color: #fee801;
+    color: #000000;
+}
+
+.botao:hover {
+    color: #fee801;
+}
+
 .footer {
     padding: 24px;
     background-color: #1c1c1f;
