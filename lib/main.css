@@ -6,9 +6,24 @@
 }
 
 .text-colored {
-    color: rgb(39, 219, 255);
+    color: #fee801;
 }
 
-.nav-pills .show>.nav-link {
-    background-color: brown;
+.nav-pills .nav-link {
+    color: #fee801;
 }
+
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link {
+    color: #00060e;
+    background-color: #fee801;
+}
+
+.nav {
+    --bs-nav-link-hover-color: #fff;
+}
+
+h2 {
+    color: #fee801;
+    text-shadow: #000000 4px 4px;
+}
+

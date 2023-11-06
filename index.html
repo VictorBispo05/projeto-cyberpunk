@@ -13,40 +13,32 @@
 </head>
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabeçalho" style="background-color: rgb(28, 28, 31);">
-        <div class="container">
-            <img class="navbar-brand m-0 logo" src="images/logo.png" style="height: 80px;">
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav>
-                <ul class="nav nav-pills d-block d-md-flex">
-                    <li class="nav-item fw-bold">
-                        <a href="#inicio" class="nav-link">
-                            <i ></i>
-                            início
-                        </a>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" style="height: 70px;" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                     </li>
-                    <li class="nav-item fw-bold">
-                        <a href="#origens" class="nav-link">
-                            <i ></i>
-                            Origens
-                        </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#origens">Origens</a>
                     </li>
-                    <li class="nav-item fw-bold">
-                        <a href="#personagens" class="nav-link">
-                            <i ></i>
-                            Personagens
-                        </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#personagens">Personagens</a>
                     </li>
-                    <li class="nav-item fw-bold">
-                        <a href="#contato" class="nav-link">
-                            <i ></i>
-                            Contato
-                        </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
-                </ul>
-            </nav>
-        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
@@ -78,22 +70,24 @@
             <div class="pt-5 pb-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5">
-                            <img src="images/samurai.png" style="width: 400px;" alt="">
+                        <div class="col-lg-5 col-md-12">
+                            <img src="images/arasaka.png" alt="">
                         </div>
-                        <div class="col-md-7 mt-3 mt-md-0">
+                        <div class="col-lg-7 mt-3 mt-lg-0">
                             <h2 class="section-title">Sobre </h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, id dolorum harum quo consequatur perferendis natus repudiandae optio ipsa voluptates enim ipsam corrupti labore iusto explicabo? Voluptas recusandae quas cumque.
+                                Cyberpunk 2077 é um jogo de RPG de mundo aberto desenvolvido pela CD Projekt Red. Ambientado em Night City, uma metrópole futurista e distópica, os jogadores assumem o papel de V, um mercenário em busca de uma maneira de se livrar de um chip tecnológico implantado em seu cérebro. Esse chip contém a consciência de Johnny Silverhand, um terrorista roqueiro lendário. O jogo explora uma narrativa rica e complexa, repleta de escolhas morais, personagens cativantes e reviravoltas surpreendentes. 
                             </p>
-                            <h3 class="section-title">Sobre </h3>
+                            <h2 class="section-title" style="margin-top: 58px;">Jogue </h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusantium officiis numquam quos iure velit natus alias ut reprehenderit dolor! Eius autem molestias fugit quisquam ducimus explicabo aliquid provident asperiores?
+                                A Atualização 2.0 chegou! Gratuita para todos os jogadores de Cyberpunk 2077 no Xbox Series X|S, PlayStation 5 e PC, experimente mecânicas de jogo novas e reformuladas para realizar suas fantasias cyberpunk mais loucas e compor um estilo de jogo único — com um sistema policial renovado, combate explosivos entre veículos, cibernéticas e sistemas de vantagens reformulados e muito mais!
                             </p>
-                            <ul>
-                                <li>Item 1</li>
-                                <li>Item 2</li>
-                                <li>Item 3</li>
+                            <p>
+                                Adquira nas lojas digitais:
+                            </p>
+                            <ul style="list-style: none; padding: 0;">
+                                <li><a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" style="text-decoration: none; color: #dee2e6;"><i class="bi bi-steam" style="font-size: 30px;"></i> Steam</a></li>
+                                <li><a href="https://store.epicgames.com/pt-BR/p/cyberpunk-2077" style="text-decoration: none; color: #dee2e6;"><img src="images/icons/epic-games.png" style="width: 30px;"> Epic Games</a></li>
                             </ul>
                         </div>
                     </div>
@@ -103,10 +97,10 @@
         <section id="origens" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center">Origens</h2>
+                    <h2 class="section-title text-center titulo">Origens</h2>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <img src="images/lifepaths/Nomad.webp" alt="" class="d-block w-100 rounded mb-2">
                         <h3 class="section-title text-colored fs-4" style="text-align: center;">
                             <i class=""></i>
@@ -116,7 +110,7 @@
                             Perambular pelas Terras baldias, saquear ferros-velhos, invadir depósitos de combustível, a vida na estrada não era fácil. Mas crescer num clã nômade tem suas vantagens. Honestidade, integridade e amor pela liberdade, qualidades que poucos em Night City possuem e que nenhuma quantia de dinheiro pode comprar.
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <img src="images/lifepaths/Street_kid.webp" alt="" class="d-block w-100 rounded mb-2">
                         <h3 class="section-title text-colored fs-4" style="text-align: center;">
                             <i class=""></i>
@@ -126,7 +120,7 @@
                             Dizem que se você quer entender as ruas, você tem que vivê-las. Gangues, bonecas, traficantes de pequeno porte, você foi criado por todos eles. Aqui embaixo, a lei da selva determina que os fracos sirvam os fortes, a única lei em Night City que você ainda não quebrou.
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <img src="images/lifepaths/Corpo.webp" alt="" class="d-block w-100 rounded mb-2">
                         <h3 class="section-title text-colored fs-4" style="text-align: center;">
                             <i class=""></i>
@@ -147,7 +141,7 @@
                     </h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-lg-2">
                         <aside>
                             <nav class="nav nav-pills flex-column nav-cardapio">
                                 <button type="button" data-bs-toggle="tab" data-bs-target="#assalto" class="fw-bold text-start nav-link text-colored active">Equipe</button>
@@ -158,143 +152,143 @@
                             </nav>
                         </aside>
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-lg-10">
                         <div class="tab-content">
                             <div class="tab-pane active" id="assalto">
                                 <div class="row">
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
                                         <img class="d-block w-100" src="images/personagens/v.png" alt="V" >
-                                        <h5 class="fw-bold mt-2">V</h5>
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">V</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur
+                                            Um mercenário ambicioso e sonhador.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
                                         <img class="d-block w-100" src="images/personagens/jackie.png" alt="Jackie" >
-                                        <h5 class="fw-bold mt-2">Jackie</h5>
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Jackie</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur
+                                            De coração mole, um gentil e sábio ex-valentino. 
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
                                         <img class="d-block w-100" src="images/personagens/t-bug.png" alt="t-bug" >
-                                        <h5 class="fw-bold mt-2">T-bug</h5>
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">T-bug</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur
+                                            Trilha-rede especialista e focada
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane" id="samurai">
                                 <div class="row">
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
                                         <img class="d-block w-100" src="images/personagens/silverhand.png" alt="johnny Silverhand">
-                                        <h5 class="fw-bold mt-2">johnny Silverhand</h5>
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">johnny Silverhand</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Terrorista, cantor e lenda de Night City.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
                                         <img class="d-block w-100" src="images/personagens/Nancy.png" alt="Nancy">
-                                        <h5 class="fw-bold mt-2">Nancy</h5>
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Nancy</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ex tecladista da Samurai, hoje jornalista investigadora.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
                                         <img class="d-block w-100" src="images/personagens/Kerry.png" alt="Kerry">
-                                        <h5 class="fw-bold mt-2">Kerry</h5>
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Kerry</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Guitarrista, vocalista e hoje seguindo carreira solo.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
                                         <img class="d-block w-100" src="images/personagens/Denny.png" alt="Denny">
-                                        <h5 class="fw-bold mt-2">Denny</h5>
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Denny</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Baterista da Samurai, até seu fim.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
                                         <img class="d-block w-100" src="images/personagens/Henry.png" alt="Henry">
-                                        <h5 class="fw-bold mt-2">Henry</h5>
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Henry</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Baixista da Samurai, problemático.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane" id="aldecaldos">
                                 <div class="row">
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
-                                        <img class="d-block w-100" src="" alt="Panam">
-                                        <h5 class="fw-bold mt-2">Panam</h5>
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                        <img class="d-block w-100" src="images/personagens/panam.png" alt="Panam">
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Panam</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Mercenária teimosa e estrategista, essencial para os Aldecaldos.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
-                                        <img class="d-block w-100" src="" alt="Saul">
-                                        <h5 class="fw-bold mt-2">Saul</h5>
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                        <img class="d-block w-100" src="images/personagens/saul.png" alt="Saul">
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Saul</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Atual lider dos Aldecaldos, paizão da família.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
-                                        <img class="d-block w-100" src="" alt="Mitch">
-                                        <h5 class="fw-bold mt-2">Mitch</h5>
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                        <img class="d-block w-100" src="images/personagens/mitch.png" alt="Mitch">
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Mitch</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Veterano da guerra da unificação, fiel e leal à sua família.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
-                                        <img class="d-block w-100" src="" alt="Scorpion">
-                                        <h5 class="fw-bold mt-2">Scorpion</h5>
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                        <img class="d-block w-100" src="images/personagens/scorpion.png" alt="Scorpion">
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Scorpion</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Panzer boy na guerra da unificação e melhor amigo do Mitch.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane" id="amigos">
                                 <div class="row">
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
-                                        <img class="d-block w-100" src="" alt="Misty">
-                                        <h5 class="fw-bold mt-2">Misty</h5>
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                        <img class="d-block w-100" src="images/personagens/Misty.png" alt="Misty">
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Misty</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Espiritualista, conselheira, tem sua própria esotérica em Night City.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
-                                        <img class="d-block w-100" src="" alt="Viktor">
-                                        <h5 class="fw-bold mt-2">Viktor</h5>
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                        <img class="d-block w-100" src="images/personagens/viktor.png" alt="Viktor">
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Viktor</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Medicânico de confiança do V. 
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane" id="mox">
                                 <div class="row">
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
-                                        <img class="d-block w-100" src="" alt="Judy">
-                                        <h5 class="fw-bold mt-2">Judy</h5>
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                        <img class="d-block w-100" src="images/personagens/judy.png" alt="Judy">
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Judy</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Editora de neurodança das Mox e apaixonada por tecnologia.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
-                                        <img class="d-block w-100" src="" alt="Evelyn">
-                                        <h5 class="fw-bold mt-2">Evelyn</h5>
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                        <img class="d-block w-100" src="images/personagens/Evelyn.png" alt="Evelyn">
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Evelyn</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Boneca da Clouds, porém tem como seu lar as Mox.
                                         </p>
                                     </div>
-                                    <div class="col-md-3" style="border: 2px solid rgb(66, 178, 247); border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
-                                        <img class="d-block w-100" src="" alt="Scorpion">
-                                        <h5 class="fw-bold mt-2">Scorpion</h5>
+                                    <div class="col-lg-3 col-sm-5" style="border: 2px solid #fee801; border-radius: 5%; margin-left: 8px; margin-bottom: 4px;">
+                                        <img class="d-block w-100" src="images/personagens/Suzie.png" alt="Suzie Q.">
+                                        <h5 class="fw-bold mt-2" style="text-align: center;">Suzie Q.</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Lider das Mox e atual dona do Bar da Lizzie.
                                         </p>
                                     </div>
                                 </div>
@@ -307,41 +301,30 @@
         <section id="contato" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                    <h2 class="section-title text-center">Contato</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-7 mb-5">
+                    <div class="col-2"></div>
+                    <div class="col-lg-8 mb-8">
                         <form>
                             <div class="mb-3">
-                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
                                 <input type="text" id="nome" class="form-control" required>
                             </div>
                             <div class="mb-3">
-                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <label for="email" class="form-label fw-bold">Seu e-mail</label>
                                 <input type="email" id="email" class="form-control" required>
                             </div>
                             <div class="mb-3">
-                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <label for="telefone" class="form-label fw-bold">Seu telefone (opcional)</label>
                                 <input type="tel" id="telefone" class="form-control">
                             </div>
                             <div class="mb-3">
-                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
                                 <textarea class="form-control" id="mensagem" required></textarea>
                             </div>
                             <button type="submit" class="btn fw-bold">Enviar</button>
                         </form>
-                    </div>
-                    <div class="col-md-5">
-                        
-                        <div class="row mt-4">
-                            <h3 class="section-title fs-4 text-colored">
-                                <i class="bi bi-cursor-fill"></i>
-                                Endereço
-                            </h3>
-                            <p>
-                                Megaprédio H8 - Night City
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
