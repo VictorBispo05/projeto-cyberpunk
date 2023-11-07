@@ -90,5 +90,5 @@ form {
 }
 
 .text-container {
-    width: 340px;
+    max-width: 280px;
 }
