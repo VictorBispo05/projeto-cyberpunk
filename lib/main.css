@@ -79,10 +79,16 @@ form {
 }
 
 .footer {
-    padding: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     background-color: #1c1c1f;
 }
 
 .footer p {
     color: #777777;
+    margin-left: 50px;
+}
+
+.text-container {
+    width: 340px;
 }
